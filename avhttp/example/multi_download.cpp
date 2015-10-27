@@ -80,7 +80,7 @@ int main(int argc, char* argv[])
 		avhttp::settings s;
 		s.check_certificate = false;
 		// s.m_download_rate_limit = 102400;
-		s.connections_limit = 20;
+
 		d.start(argv[1], s);
 
 		if (d.file_size() != -1)
