@@ -4,7 +4,7 @@
 class javahttp
 {
 public:
-	std::string post(std::string url, std::string token, std::string id, int pos, int count, std::string filename);
+	std::string post(std::string url, std::string token, std::string id, std::string filename);
 
 private:
 
